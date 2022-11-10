@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="16dp"
+            android:text="과목"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="88dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="16dp"
+            android:gravity="center"
+            android:text="교수명"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="88dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="16dp"
+            android:gravity="center"
+            android:text="교시"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/id"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="8dp"
+            android:hint="과목명"/>
+
+        <EditText
+            android:id="@+id/pw"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="8dp"
+            android:hint="교수명"
+            android:inputType="numberPassword" />
+
+        <Spinner
+            android:layout_width="112dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="16dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="88dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="16dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="20sp" />
+
+        <Spinner
+            android:layout_width="120dp"
+            android:layout_height="45dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="저장" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
